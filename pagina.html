@@ -2,30 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
     <title>desafio</title>
 </head>
 <body>
     <main>
-
-        <h1>Encriptador de texto</h1><br>
-   
-        <label >
-
-            <strong>Ingrese el texto a encriptar:</strong> 
-
-        </label><br>
-
-        <textarea  name="texto_paraEncriptar"  cols="60" rows="5" placeholder="texto"></textarea><br>
-
-        <button>
-            <strong>Encriptar</strong>
-        </button>
+        <div id="contenedor">
+            <header>
+                <h1>Encriptador de texto</h1><br>
+            </header>
+            
+            <section>
+    
+                <label >
+    
+                    <strong>-----------------INGRESE TEXTO A ENCRIPTAR-----------------</strong> 
         
+                </label><br><br>
+        
+                <div id="contenedor2">
 
-        <button>
-            <strong>Desencriptar</strong>
-        </button>
-
+                    <textarea  name="texto ingresado"  id="ingresado" cols="90" rows="20" placeholder="texto"></textarea><br><br>
+        
+                    <button>
+                        <strong>Encriptar</strong>
+                    </button>
+                    
+            
+                    <button>
+                        <strong>Desencriptar</strong>
+                    </button>
+        
+                </div>
+                
+            </section>
+        </div>
+        
+        <div id="resultado">
+            <aside>
+                <img src="https://imgs.search.brave.com/Vx_ci7ITlV1VvpRROY5_AiXuBNHbuQi0qQihvP_Ga2w/rs:fit:1200:1200:1/g:ce/aHR0cDovL3BsdXNw/bmcuY29tL2ltZy1w/bmcvbWFnbmlmeWlu/Zy1oZC1wbmctb3Bl/bi0yMDAwLnBuZw" alt="lupa">
+                <p>Ningun texto encontrado</p>
+             </aside>
+     
+        </div>
+        
 
         
 
